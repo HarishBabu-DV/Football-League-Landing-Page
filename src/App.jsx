@@ -5,7 +5,7 @@ import { Routes,Route } from 'react-router'
 
 const App = () => {
   return (
-    <main  className='max-w-[1920px] w-full bg-red-950 '>
+    <main  className='max-w-[1920px] w-full bg-[#000000] '>
       {/* Header  */}
       <Header />
       <Routes>

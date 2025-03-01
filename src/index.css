@@ -1,10 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap');
 
 @layer utilities{
     /* Heading and Logo Container  */
     .top-heading-container{
         clip-path: polygon(30% 0%,40% 100%,60% 100%,70% 0%);
+    }
+    /*Heading section */
+
+    /*Common properties for heading section first line and second line*/
+    .heading-section-firstline,.heading-section-secondline{
+        background:linear-gradient(to right,#ffffff ,#939393);
+        background: -webkit-linear-gradient(to right,#ffffff,#939393);
+        background-clip:text ;
+        -webkit-background-clip:text ;
+        color: transparent;
+    }
+    .heading-section-secondline-football{
+        background:linear-gradient(to bottom,#ff0000 41%,#939393 100%);
+        background: -webkit-linear-gradient(to bottom,#ff0000 41%,#939393 100%);
+        background-clip:text ;
+        -webkit-background-clip:text ;
+        color: transparent;
     }
 }

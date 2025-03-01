@@ -9,7 +9,7 @@ const Header = () => {
   return (
 
       // Header 
-      <header className='w-full h-[10vh] relative'>   
+      <header className='w-full h-[10vh] fixed'>   
         {/* Heading and Logo Container  */}
         <div className='bg-white absolute z-10 top-0 w-full h-full flex justify-center items-center top-heading-container'>
             {/* Logo Container  */}
