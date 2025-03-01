@@ -1,15 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* Google Fonts  */
-@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&family=Manrope:wght@200..800&display=swap');
+
+@layer{
+    /* Google Fonts  */
+    @import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&family=Manrope:wght@200..800&family=Mohave:ital,wght@0,300..700;1,300..700&display=swap');
+}
+
 @layer utilities{
+
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /*<--------------Hero Section------------->*/
+
     /* Heading and Logo Container  */
     .top-heading-container{
         clip-path: polygon(30% 0%,40% 100%,60% 100%,70% 0%);
     }
     /*Heading section */
-
     /*Common properties for heading section first line and second line*/
     .heading-section-firstline,.heading-section-secondline{
         background:linear-gradient(to right,#ffffff ,#939393);
@@ -20,12 +32,10 @@
     }
     .heading-section-firstline{
         font-family: "Manjari", sans-serif;
-        font-weight: 700;
         font-style: normal;
     }
     .heading-section-secondline{
         font-family: "Manrope", sans-serif;
-        font-weight: 700;
         font-style: normal;
     }
     .heading-section-secondline-football{
@@ -35,4 +45,25 @@
         -webkit-background-clip:text ;
         color: transparent;
     }
+
+    /*<--------------Challenges Section------------->*/
+    /*Challenges heading container*/
+    .challenges-heading-container{
+        clip-path: polygon(30% 100%,40% 0%,60% 0%,70% 100%);
+    }
+    /*Common properties of challenges-heading-container and Scouting phase heading*/
+    .challenges-heading,.scouting-phase-heading{
+        font-family: "Mohave", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+    /*Scouting phase heading*/
+    .scouting-phase-heading{
+        background: -webkit-linear-gradient(to bottom,#E92229 12%,#1c1c1c);
+        background: linear-gradient(to bottom,#E92229 12%,#1c1c1c);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    
 }

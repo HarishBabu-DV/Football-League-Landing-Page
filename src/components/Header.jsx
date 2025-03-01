@@ -9,11 +9,11 @@ const Header = () => {
   return (
 
       // Header 
-      <header className='w-full h-[10vh] fixed'>   
+      <header className='w-full h-[7.5vh] absolute'>   
         {/* Heading and Logo Container  */}
         <div className='bg-white absolute z-10 top-0 w-full h-full flex justify-center items-center top-heading-container'>
             {/* Logo Container  */}
-            <div className='w-[100px] h-[52px] '>
+            <div className='w-[85px] h-[45px] '>
                 <img src={logo} alt="logo" className='w-full h-full'  />
             </div>
         </div>

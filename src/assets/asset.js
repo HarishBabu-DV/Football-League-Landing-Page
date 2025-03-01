@@ -1,5 +1,5 @@
 import logo from './images/superleague.png'
-
+import vip2 from './images/i.m.vijayan.png'
 const firstnavItems=[
     {
         id:1,
@@ -24,4 +24,4 @@ const secondNavItems=[
         title:"Contact"
     }
 ]
-export {logo,firstnavItems,secondNavItems}
+export {logo,vip2,firstnavItems,secondNavItems}
