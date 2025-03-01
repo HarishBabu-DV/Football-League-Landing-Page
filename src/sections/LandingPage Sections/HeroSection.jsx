@@ -2,14 +2,14 @@ import React from 'react'
 import { vip2 } from '../../assets/asset'
 const HeroSection = () => {
   return (
-    <section className='h-dvh w-full flex flex-col gap-8 justify-center items-center'>      
+    <section className='h-dvh w-full flex flex-col  py-16 justify-between items-center'>      
       
       {/* Heading Section  */}
-      <div className='w-full'>
+      <div className='w-full pt-16'>
         <p className='text-[1rem] leading-[18.75px] font-normal text-center heading-section-firstline '>
           Kerala truly global with a commitment to grow all facets of the sport by 
         </p>
-        <h2 className='text-[2.5rem] leading-[54.64px] text-center heading-section-secondline font-medium'>
+        <h2 className='text-[2rem] leading-[54.64px] text-center heading-section-secondline font-semibold'>
           Developing top-quality <span className='heading-section-secondline-football'>Football</span> talent
         </h2>
       </div>
@@ -26,11 +26,11 @@ const HeroSection = () => {
             <p className='text-white text-[1.1rem] leading-[1.7rem] py-10 font-extralight'>
               The reowned sports personality with years of experience in promoting top leagues like Pro Kabbadi, RCB (IPL), joins Kerala Super League.
             </p>
-            <h2 className='uppercase text-white flex flex-col leading-7 font-semibold'>
-              <h3 className='  text-[1.6rem] tracking-[0.001rem] border-t-[1px] w-fit  pt-3 '>charu sharma</h3>
-              <h3 className='   text-[1.4rem]'>board member</h3>
-              <h3 className='  text-[1.2rem]'>(non executive)</h3>
-            </h2>
+            <div className=' flex flex-col leading-7 '>
+              <h3 className='uppercase text-white font-semibold text-[1.6rem] tracking-[0.001rem] border-t-[1px] w-fit  pt-3 '>charu sharma</h3>
+              <h3 className='uppercase text-white font-semibold text-[1.4rem]'>board member</h3>
+              <h3 className='uppercase text-white font-semibold text-[1.2rem]'>(non executive)</h3>
+            </div>
           </div>
         </div>
 

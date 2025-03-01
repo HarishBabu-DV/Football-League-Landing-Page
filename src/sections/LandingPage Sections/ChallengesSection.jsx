@@ -10,9 +10,9 @@ const ChallengesSection = () => {
             <h2 className='uppercase text-center text-[1.6rem] challenges-heading font-semibold'>challenges</h2>
         </div>
 
-        {/* Super League Kerala  */}
+        {/* Challenges Description  */}
         <div className= 'w-full bg-white flex flex-col rounded-md px-12'>
-            {/* Super League Kerala Scouting phase heading*/}
+            {/* Super League Kerala Scouting phase 2 heading*/}
             <h2 className='capitalize py-6 flex justify-center font-semibold text-[1.7rem] scouting-phase-heading '>
                 super league kerala scouting phase
             </h2>
@@ -66,6 +66,8 @@ const ChallengesSection = () => {
                 </p>
             </div>
         </div>
+        
+      
     </section>
   )
 }
