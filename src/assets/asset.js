@@ -8,10 +8,14 @@ import { PiCalendarDotsFill } from "react-icons/pi";
 import kick from './images/kick.png'
 import trophy from './images/trophy.png'
 import win from './images/win.png'
+import gamechanger from './images/gamechanger.png'
+import footballground from './images/footballGround.png'
+import ksl from './images/ksl.png'
+
 
 //Navitems
 //First navitems
-const firstnavItems=[
+export const firstnavItems=[
     {
         id:1,
         title:"Home"
@@ -26,7 +30,7 @@ const firstnavItems=[
     }
 ]
 //Second navitems
-const secondNavItems=[
+export const secondNavItems=[
     {
         id:1,
         title:"Project game changer"
@@ -38,7 +42,7 @@ const secondNavItems=[
 ]
 
 // Football Teams 
-const footBallTeams=[
+export const footBallTeams=[
     {
         id:1,
         imageUrl:"https://upload.wikimedia.org/wikipedia/en/c/c7/Calicut_FC.png",
@@ -77,7 +81,7 @@ const footBallTeams=[
     }
 ]
 //Kerala cities
-const keralaCities=[
+export const keralaCities=[
     {
         id:1,
         icon:PiCalendarDotsFill,
@@ -125,7 +129,7 @@ const keralaCities=[
     }
 ]
 //Pros
-const pros=[
+export const pros=[
     {
         id:1,
         content:"Embark on a football odyssey with Super League Kerala, where local talent meets global horizons. In collaboration with the renowned Andrés Iniesta Academy, we craft a transformative narrative, turning the dreams of young football enthusiasts in Kerala into tangible career options. Group Meeran proudly spearheads this initiative, showcasing its dedication to enhancing the beautiful game in our beloved state. Since 2017, Scoreline Sports Pvt. Ltd. has specialized in discovering and nurturing rising prodigies through an elite sporting curriculum."
@@ -143,4 +147,28 @@ const pros=[
         content:"Set to revolutionize football for Malayalees all over, Super League Kerala is not just a competition. It is a celebration of the beautiful game reimagined for a new generation. The transformative endeavour will herald a new era of the sport and unravel a legacy of transforming football into a viable career option. Super League Kerala will feature six dynamic franchisees competing in a thrilling head-to-head showdown. The football fiesta, unfurling in a league format, will officially kick off in August 2024 for a period of two months. Group Meeran proudly spearheads this initiative, showcasing its dedication to enhancing the beautiful game in our state. "
     }
 ]
-export {logo,vip2,logowhite,firstnavItems,secondNavItems,footBallTeams,keralaCities,pros,kick,trophy,win}
+//our media description
+export const ourMediaDescription=[
+    {
+        id:1,
+        imageContent:gamechanger,
+        title:"project game changer",
+        description:"Project Gamechanger” marks a pivotal moment in Kerala football as Super League Kerala, in association with the prestigious Andrés Iniesta Academy, undertakes a revolutionary mission to transform the regional game into a global spectacle. By breaking barriers and setting new standards.",
+        buttonText:"learn more"
+    },
+    {
+        id:2,
+        imageContent:footballground,
+        title:"football reimagined",
+        description:"Embark on a football odyssey with Super League Kerala, where local talent meets global horizons. In collaboration with the renowned Andrés Iniesta Academy, we craft a transformative narrative, turning the dreams of young football enthusiasts in Kerala into tangible career options.",
+        buttonText:"learn more"
+    },
+    {
+        id:3,
+        imageContent:ksl,
+        title:"kerala's own football league",
+        description:"Super League Kerala, featuring six dynamic franchises, unfolds in an exhilarating league format. Our mission is to foster talent through community development, healthy competition, and engaging entertainment, all the while prioritizing the interests of league stakeholders.",
+        buttonText:"learn more"
+    }
+] 
+export {logo,vip2,logowhite,kick,trophy,win}

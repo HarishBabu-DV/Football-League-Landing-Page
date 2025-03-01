@@ -8,7 +8,7 @@ const ProsSection = () => {
         <div className='flex flex-col justify-center items-center gap-8 min-h-dvh py-24 relative'>
            {
             pros.map((pro)=>(
-                <p key={pro.id} className='text-justify leading-6 text-white text-[.9rem] uppercase max-w-[50%] w-full'>{pro.content}</p>
+                <p key={pro.id} className='text-justify leading-6 text-white text-[.9rem] uppercase max-w-[50%] w-full pros-description'>{pro.content}</p>
             ))
            }
            {/* Kicking image  */}
