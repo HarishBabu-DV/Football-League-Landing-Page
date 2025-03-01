@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @layer utilities{
+    /* Heading and Logo Container  */
     .top-heading-container{
-        clip-path: polygon(33% 0%,40% 10%,59% 10%,66% 0%);
-        
+        clip-path: polygon(30% 0%,40% 100%,60% 100%,70% 0%);
     }
 }
