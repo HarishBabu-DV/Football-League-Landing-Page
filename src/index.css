@@ -98,4 +98,11 @@
     .media-description-description{
         font-weight: 400;
     }
+/*<--------------Subscribe Section------------->*/
+    .subscribe-section-container{
+        background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('./assets/images/stadium.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
 }

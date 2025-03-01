@@ -11,7 +11,7 @@ import win from './images/win.png'
 import gamechanger from './images/gamechanger.png'
 import footballground from './images/footballGround.png'
 import ksl from './images/ksl.png'
-
+import stadium from './images/stadium.png'
 
 //Navitems
 //First navitems
@@ -171,4 +171,4 @@ export const ourMediaDescription=[
         buttonText:"learn more"
     }
 ] 
-export {logo,vip2,logowhite,kick,trophy,win}
+export {logo,vip2,logowhite,kick,trophy,win,stadium}
