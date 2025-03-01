@@ -2,7 +2,7 @@ import React from 'react'
 import { vip2 } from '../../assets/asset'
 const HeroSection = () => {
   return (
-    <section className='h-dvh w-full flex flex-col gap-12 justify-center items-center'>      
+    <section className='h-dvh w-full flex flex-col gap-8 justify-center items-center'>      
       
       {/* Heading Section  */}
       <div className='w-full'>
