@@ -123,19 +123,29 @@
     }
     /* quotes line2 connected text  */
     .quotes-line2-connected{
-        background:linear-gradient(to top,#E92229 0%,#939393 51%);
-        background: -webkit-linear-gradient(to top,#E92229 0%,#939393 51%);
+        background:linear-gradient(to top,#E92229 ,#939393 90%);
+        background: -webkit-linear-gradient(to top,#E92229 ,#939393 90%);
         background-clip:text ;
         -webkit-background-clip:text ;
         color: transparent;
     }
     /*super-league-kerala-heading*/
     .super-league-kerala-heading{
-        background:linear-gradient(to bottom,#000000 24%,#737373 100%);
-        background: -webkit-linear-gradient(to bottom,#000000 24%,#737373 100%);
+        background:linear-gradient(to bottom,#353535 2%,#737373 100%);
+        background: -webkit-linear-gradient(to bottom,#353535 2%,#737373 100%);
         background-clip:text ;
         -webkit-background-clip:text ;
         color: transparent;
         font-family: "Manrope",sans-serif;
+    }
+    /* Email input  */
+    .email-input-section::placeholder{
+        color: #171717;
+    }
+
+    /* Subscribe us button */
+    .subscribe-us-button{
+        background:linear-gradient(to bottom,#898989 15%,#E92229 100%);
+        background: -webkit-linear-gradient(to bottom,#898989 15%,#E92229 100%);
     }
 }
