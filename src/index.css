@@ -105,10 +105,37 @@
         background-position: center;
         background-size: cover;
     }
+    /* Common properties of quotes line1 and line2 stay text   */
+    .quotes-line1,.quotes-line2-stay{
+        background:linear-gradient(to bottom,#ffffff 0%,#939393 100%);
+        background: -webkit-linear-gradient(to bottom,#ffffff 0%,#939393 100%);
+        background-clip:text ;
+        -webkit-background-clip:text ;
+        color: transparent;
+    }
+    /* quotes line1  */
     .quotes-line1{
         font-family: "Manjari",sans-serif;
     }
+    /* quotes line2  */
     .quotes-line2{
+        font-family: "Manrope",sans-serif;
+    }
+    /* quotes line2 connected text  */
+    .quotes-line2-connected{
+        background:linear-gradient(to top,#E92229 0%,#939393 51%);
+        background: -webkit-linear-gradient(to top,#E92229 0%,#939393 51%);
+        background-clip:text ;
+        -webkit-background-clip:text ;
+        color: transparent;
+    }
+    /*super-league-kerala-heading*/
+    .super-league-kerala-heading{
+        background:linear-gradient(to bottom,#000000 24%,#737373 100%);
+        background: -webkit-linear-gradient(to bottom,#000000 24%,#737373 100%);
+        background-clip:text ;
+        -webkit-background-clip:text ;
+        color: transparent;
         font-family: "Manrope",sans-serif;
     }
 }
