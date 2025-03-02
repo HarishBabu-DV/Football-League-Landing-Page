@@ -105,4 +105,10 @@
         background-position: center;
         background-size: cover;
     }
+    .quotes-line1{
+        font-family: "Manjari",sans-serif;
+    }
+    .quotes-line2{
+        font-family: "Manrope",sans-serif;
+    }
 }

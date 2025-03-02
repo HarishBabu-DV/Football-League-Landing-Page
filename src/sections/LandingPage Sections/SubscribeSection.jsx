@@ -5,12 +5,12 @@ const SubscribeSection = () => {
     <section className='w-full min-h-dvh subscribe-section-container'>
         {/* Quotes Description */}
         <div>
-            <p>Stay in the loop. Get the latest updates from SLK.</p>
-            <h3>
+            <p className='quotes-line1'>Stay in the loop. Get the latest updates from SLK.</p>
+            <h3 className='quotes-line2'>
                 <span>Stay</span>
                 <span>Connected</span>
             </h3>
-            <h1>Super League Kerala</h1>
+            <h1 className='super-league-kerala-heading'>Super League Kerala</h1>
         </div>
         {/* Email input  */}
         <input type="email" name='email' id='email' placeholder='Email' className=''/>
