@@ -12,6 +12,8 @@ import gamechanger from './images/gamechanger.png'
 import footballground from './images/footballGround.png'
 import ksl from './images/ksl.png'
 import stadium from './images/stadium.png'
+import pinarivijayan from './images/pinarayi_vijayan.png'
+import muhammadriyas from './images/muhammad_riyas.png'
 
 //Navitems
 //First navitems
@@ -171,4 +173,21 @@ export const ourMediaDescription=[
         buttonText:"learn more"
     }
 ] 
+// vip description
+export const vipDescription=[
+    {
+        id:1,
+        imageContent:pinarivijayan,
+        description:"The Kerala Super League, a football league initiative by the Kerala Football Association, will showcase the talent and cultural diversity across the length and breadth of Kerala. The KSL will provide abundant employment opportunities for the youth in Kerala on an International platform. Let us unite to celebrate the spirit of Football and rally behind our teams.",
+        vipName:"shri pinari vijayan",
+        vipPostName:"hon'ble chief minister of kerala"
+    },
+    {
+        id:2,
+        imageContent:muhammadriyas,
+        description:"The Kerala Super League will not only elevate our state’s football scene but also boost tourism by attracting visitors to witness the thrilling matches. The KSL showcases the beauty and culture of Kerala while Supporting local talent, making it a Win-Win situation for the state.",
+        vipName:"shri p.a.muhammad riyas",
+        vipPostName:"hon'ble minister for tourism"
+    }
+]
 export {logo,vip2,logowhite,kick,trophy,win,stadium}

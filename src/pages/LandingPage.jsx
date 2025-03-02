@@ -4,6 +4,7 @@ import ChallengesSection from '../sections/LandingPage Sections/ChallengesSectio
 import ProsSection from '../sections/LandingPage Sections/ProsSection'
 import OurMediaSection from '../sections/LandingPage Sections/OurMediaSection'
 import SubscribeSection from '../sections/LandingPage Sections/SubscribeSection'
+import OurHonorsSection from '../sections/LandingPage Sections/OurHonorsSection'
 
 const LandingPage = () => {
   return (
@@ -12,6 +13,7 @@ const LandingPage = () => {
         <ChallengesSection />
         <ProsSection />
         <OurMediaSection />
+        <OurHonorsSection />
         <SubscribeSection />
     </section>
   )
