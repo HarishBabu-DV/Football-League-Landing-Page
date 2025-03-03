@@ -14,7 +14,14 @@ import ksl from './images/ksl.png'
 import stadium from './images/stadium.png'
 import pinarivijayan from './images/pinarayi_vijayan.png'
 import muhammadriyas from './images/muhammad_riyas.png'
-
+import { AiFillHome } from "react-icons/ai"
+import { IoMail } from "react-icons/io5";
+import { FaMobile } from "react-icons/fa";
+import { BsInstagram } from "react-icons/bs"
+import { FaSquareFacebook,FaX,FaXTwitter } from "react-icons/fa6";
+import { TbBrandYoutube } from "react-icons/tb";
+import kfa from './images/KFA.png'
+import aiff from './images/AIFF.png'
 //Navitems
 //First navitems
 export const firstnavItems=[
@@ -190,4 +197,95 @@ export const vipDescription=[
         vipPostName:"hon'ble minister for tourism"
     }
 ]
+// Footer contents 
+export const footerContents={
+
+   address:[
+        {
+            id:1,
+            iconContent:AiFillHome,
+            description:"Unifed Football Sports development private limited 38/3027, 2nd Floor NH Bypass, Edapally, Kochi, India 682024"
+        },
+        {
+            id:2,
+            iconContent:IoMail,
+            description:"info@superleaguekerala.com"
+        },
+        {
+            id:3,
+            iconContent:FaMobile,
+            description:18002035633
+        }
+   ],
+   quick_links:[
+        {
+            id:1,
+            linkContent:"Home"
+        },
+        {
+            id:2,
+            linkContent:"About us"
+        },
+        {
+            id:3,
+            linkContent:"Project Game Changer"
+        },
+        {
+            id:4,
+            linkContent:"Events"
+        },
+        {
+            id:5,
+            linkContent:"Media"
+        },
+        {
+            id:6,
+            linkContent:"Contact US"
+        }
+   ],
+   useful_links:[
+        {
+            id:1,
+            linkContent:"privacy policy"
+        },
+        {
+            id:2,
+            linkContent:"term & conditions"
+        },
+        {
+            id:3,
+            linkContent:"refund policy"
+        }
+   ],
+   footBallClubs:[
+        {
+            id:1,
+            imageContent:aiff
+        },
+        {
+            id:2,
+            imageContent:kfa
+        }
+   ],
+   socialMedia:[
+        {
+            id:1,
+            iconContent:BsInstagram
+        },
+        {
+            id:2,
+            iconContent:FaSquareFacebook
+        },
+        {
+            id:3,
+            iconContent:FaX
+        },
+        {
+            id:4,
+            iconContent:TbBrandYoutube
+        }
+   ],
+   copyRightContent:"Copyright © 2025 Super League Kerala . All Right Reserved."
+}
+
 export {logo,vip2,logowhite,kick,trophy,win,stadium}

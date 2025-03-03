@@ -99,6 +99,7 @@
         font-weight: 400;
     }
 /*<--------------Our Honors Section------------->*/
+/* Our Honors heading container */
 .our-honors-heading-container{
     clip-path: polygon(30% 100%,40% 0%,60% 0%,70% 100%);
 }
@@ -160,5 +161,6 @@
         background:linear-gradient(to bottom,#898989 15%,#E92229 100%);
         background: -webkit-linear-gradient(to bottom,#898989 15%,#E92229 100%);
     }
+/*<--------------Footer Section------------->*/
 
 }
