@@ -30,7 +30,7 @@ const ChallengesSection = () => {
                                 <div className='w-[100px] h-[70px]'>
                                     <img src={team.imageUrl} className='w-full h-full' alt={`${team.teamName} logo`} />
                                 </div>
-                                <p className='uppercase text-white text-[.8rem] flex flex-col font-medium'>
+                                <p className='uppercase text-white text-[.8rem] flex flex-col font-medium football-team-names'>
                                     <span className='text-center'>{team.teamName}</span>
                                     <span className='text-center'>{team.teamNameSuffix}</span>    
                                 </p>
@@ -41,7 +41,7 @@ const ChallengesSection = () => {
                 {/* kerala's own Football league and  Season 1 */}
                 <div className='flex flex-col items-center'>     
                     {/* kerala's own Football league  */}
-                    <h1 className='text-4xl text-white font-semibold uppercase'>kerala's own football league</h1>
+                    <h1 className='text-4xl text-white font-semibold uppercase kerala-own-football-league'>kerala's own football league</h1>
                     {/* Season */}
                     <p className='uppercase text-xl text-white font-normal'>season 1</p>
                 </div>

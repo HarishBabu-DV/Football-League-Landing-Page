@@ -15,7 +15,7 @@ const Footer = () => {
                     <div className="flex flex-col gap-y-10">
                         {   
                             footerContents.address.map((address)=>(
-                                <p key={address.id} className="flex items-center gap-x-2">
+                                <p key={address.id} className="flex items-center gap-x-2 hover:underline hover:cursor-pointer">
                                     <span>{<address.iconContent className="text-lg" />}</span>
                                     <span className="w-[210px]">{address.description}</span>
                                 </p>
@@ -31,7 +31,7 @@ const Footer = () => {
                     <div className="flex flex-col gap-y-4">
                         {   
                             footerContents.quick_links.map((quickLink)=>(
-                                <Link to={'/'} className="font-medium" key={quickLink.id}>{quickLink.linkContent}</Link>
+                                <Link to={'/'} className="font-medium hover:underline hover:cursor-pointer" key={quickLink.id}>{quickLink.linkContent}</Link>
                             ))
                         }
                     </div>
@@ -44,7 +44,7 @@ const Footer = () => {
                     <div className="flex flex-col gap-y-4">
                         {   
                             footerContents.useful_links.map((usefulLink)=>(
-                                <Link to={'/'} className="font-medium capitalize" key={usefulLink.id}>{usefulLink.linkContent}</Link>
+                                <Link to={'/'} className="hover:underline hover:cursor-pointer font-medium capitalize" key={usefulLink.id}>{usefulLink.linkContent}</Link>
                             ))
                         }
                     </div>
@@ -69,7 +69,7 @@ const Footer = () => {
             <div className="flex items-center justify-center gap-4">
                 {
                     footerContents.socialMedia.map((socialMedia)=>(
-                        <span key={socialMedia.id}>
+                        <span key={socialMedia.id} className=" hover:scale-[1.2] transition-transform duration-200 hover:transition-transform hover:duration-200 hover:cursor-pointer">
                             {<socialMedia.iconContent className="text-3xl" />}
                         </span> 
                     ))

@@ -75,7 +75,14 @@
         background-position: center;
         background-size: cover;
     }
-
+   .football-team-names{
+    animation: scaleText 5s linear 2s infinite alternate forwards;
+   }
+   @keyframes scaleText {
+    to{
+        transform: scale(1.1);
+    }
+   }
      /*<--------------Our Media Section------------->*/
      /*Our Media heading*/
      /*media text*/

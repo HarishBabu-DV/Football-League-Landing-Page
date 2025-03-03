@@ -21,7 +21,7 @@ const OurHonorsSection = () => {
                 vipDescription.map((vip)=>(
                     <div key={vip.id} style={vip.id===2?{flexDirection:"row-reverse"}:null} className='flex'>
                         <div className='w-1/2 flex' style={vip.id===2 ?{justifyContent:"flex-end"}:null}>
-                            <div className='w-[500px] h-[350px]'>
+                            <div className='w-[500px] h-[350px]  hover:scale-[1.05] transition-transform duration-200 hover:transition-transform hover:duration-200'>
                                 <img src={vip.imageContent} className='w-full h-full' alt={`${vip.vipName} image`} />
                             </div>
                         </div>

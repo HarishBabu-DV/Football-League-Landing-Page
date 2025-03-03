@@ -22,14 +22,14 @@ const Header = () => {
             <div className='flex items-end gap-x-4   '>
                 {
                     firstnavItems.map((navItem)=>(
-                        <Link key={navItem.id} style={pathname==="/" && navItem.id===1 ?{backgroundColor:"#E92229"}:null} className='text-white text-[1rem] px-4 py-1 rounded-[5px] hover:bg-[#E92229]'>{navItem.title}</Link>
+                        <Link key={navItem.id} style={pathname==="/" && navItem.id===1 ?{backgroundColor:"#E92229"}:null} className='text-white text-[1rem] px-4 py-1 rounded-[5px] hover:bg-[#E92229] transition-colors duration-400 ease-in hover:transition-colors hover:duration-400 hover:ease-out'>{navItem.title}</Link>
                     ))
                 }
             </div>
             <div className='flex items-end gap-x-4   '>
                 {
                     secondNavItems.map((navItem)=>(
-                        <Link key={navItem.id} className='text-white text-[1rem] px-4 py-1 rounded-[5px] hover:bg-[#E92229]'>{navItem.title}</Link>
+                        <Link key={navItem.id} className='text-white text-[1rem] px-4 py-1 rounded-[5px] hover:bg-[#E92229] transition-colors duration-400 ease-in hover:transition-colors hover:duration-400 hover:ease-out'>{navItem.title}</Link>
                     ))
                 }
             </div>

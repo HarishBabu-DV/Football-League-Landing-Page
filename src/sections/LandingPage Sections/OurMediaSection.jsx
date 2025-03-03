@@ -17,12 +17,12 @@ const OurMediaSection = () => {
                 {
                     ourMediaDescription.map((content)=>(
                         <div key={content.id} className='w-[28%] flex flex-col items-center gap-y-4'>
-                            <div className='w-full h-full'>
+                            <div className='w-full h-full  hover:scale-[1.05] transition-transform duration-200 hover:transition-transform hover:duration-200'>
                                 <img src={content.imageContent} className='w-full h-full' alt={`${content.title} image`}/>
                             </div>
                             <h2 className='text-[#cccccc] capitalize media-description-title text-[1.2rem]'>{content.title}</h2>
                             <p className=' text-[#727272] text-xs capitalize media-description-description leading-6'>{content.description}</p>
-                            <Link to="/" className='bg-[#E02B2A] text-white px-4 py-3 rounded-md'>{content.buttonText}</Link>
+                            <Link to="/" className='bg-[#E02B2A] text-white px-4 py-3 rounded-md transition-colors duration-300 hover:bg-white hover:text-[#E02B2A] hover:transition-colors hover:duration-300 '>{content.buttonText}</Link>
                         </div>
                     ))
                 }
