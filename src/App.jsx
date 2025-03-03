@@ -2,6 +2,7 @@ import React from 'react'
 import LandingPage from './pages/LandingPage'
 import Header from './components/Header'
 import { Routes,Route } from 'react-router'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -12,6 +13,8 @@ const App = () => {
         {/* Landing Page  */}
         <Route path='/' element={<LandingPage />  } />
       </Routes>
+      {/* Footer  */}
+      <Footer />
     </main>
   )
 }

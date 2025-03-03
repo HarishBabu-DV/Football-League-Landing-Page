@@ -19,7 +19,7 @@ const OurHonorsSection = () => {
         <div className='flex flex-col items-center gap-y-6 px-14 '>
             {
                 vipDescription.map((vip)=>(
-                    <div style={vip.id===2?{flexDirection:"row-reverse"}:null} className='flex'>
+                    <div key={vip.id} style={vip.id===2?{flexDirection:"row-reverse"}:null} className='flex'>
                         <div className='w-1/2 flex' style={vip.id===2 ?{justifyContent:"flex-end"}:null}>
                             <div className='w-[500px] h-[350px]'>
                                 <img src={vip.imageContent} className='w-full h-full' alt={`${vip.vipName} image`} />

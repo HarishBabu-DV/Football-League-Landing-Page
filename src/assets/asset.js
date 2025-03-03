@@ -16,7 +16,7 @@ import pinarivijayan from './images/pinarayi_vijayan.png'
 import muhammadriyas from './images/muhammad_riyas.png'
 import { AiFillHome } from "react-icons/ai"
 import { IoMail } from "react-icons/io5";
-import { FaMobile } from "react-icons/fa";
+import { FaMobile, FaTwitter } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs"
 import { FaSquareFacebook,FaX,FaXTwitter } from "react-icons/fa6";
 import { TbBrandYoutube } from "react-icons/tb";
@@ -240,7 +240,7 @@ export const footerContents={
         },
         {
             id:6,
-            linkContent:"Contact US"
+            linkContent:"Contact Us"
         }
    ],
    useful_links:[
@@ -278,7 +278,7 @@ export const footerContents={
         },
         {
             id:3,
-            iconContent:FaX
+            iconContent:FaXTwitter
         },
         {
             id:4,

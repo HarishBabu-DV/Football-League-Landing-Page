@@ -104,8 +104,8 @@
     clip-path: polygon(30% 100%,40% 0%,60% 0%,70% 100%);
 }
 .special-thanks-to,.vip-name{
-    background:linear-gradient(to top right,#545454 0%,#E92229 27% ,#000 100% );
-    background: -webkit-linear-gradient(to top right,#545454 0%,#E92229 27% ,#000 100% );
+    background:linear-gradient(to bottom,#545454 0%,#E92229 27% ,#000 100% );
+    background: -webkit-linear-gradient(to bottom,#545454 0%,#E92229 27% ,#000 100% );
     background-clip:text ;
     -webkit-background-clip:text ;
     color: transparent;
@@ -162,5 +162,13 @@
         background: -webkit-linear-gradient(to bottom,#898989 15%,#E92229 100%);
     }
 /*<--------------Footer Section------------->*/
-
+/*Common properties of Address heading*/
+.address-heading{
+    background:linear-gradient(to bottom,#BA0007 0%,#2F2F2F 100%);
+    background: -webkit-linear-gradient(to bottom,#BA0007 0%,#2F2F2F 100%);
+    background-clip:text ;
+    -webkit-background-clip:text ;
+    color: transparent;
+    text-decoration-color: black;
+}
 }
