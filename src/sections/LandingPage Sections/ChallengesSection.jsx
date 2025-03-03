@@ -3,7 +3,7 @@ import { footBallTeams, keralaCities, logowhite } from '../../assets/asset'
 
 const ChallengesSection = () => {
   return (
-    <section className='w-[90%] mx-auto bg-red-900'>
+    <section className='w-[90%] mx-auto'>
 
         {/* Challenges Heading  */}
         <div className='bg-white h-[10vh] challenges-heading-container flex justify-center items-center'>   

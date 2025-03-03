@@ -14,7 +14,11 @@
         padding: 0;
         box-sizing: border-box;
     }
-
+    /*<--------------App Container------------->*/
+    .app-container{
+        background:linear-gradient(to right,#000 12%,#360305,#000);
+        background: -webkit-linear-gradient(to right,#000 12%,#360305,#000);
+    }
     /*<--------------Hero Section------------->*/
 
     /* Heading and Logo Container  */
@@ -117,6 +121,7 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        
     }
     /* Common properties of quotes line1 and line2 stay text   */
     .quotes-line1,.quotes-line2-stay{

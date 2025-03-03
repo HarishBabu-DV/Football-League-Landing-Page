@@ -15,11 +15,11 @@ const HeroSection = () => {
       </div>
 
       {/* VIP Description  */}
-      <div className='w-full flex justify-center'>
+      <div className='w-full flex justify-center gap-4'>
 
         {/* Charu Sharma  */}
         <div className='w-[40%] flex'>
-          <div className='w-[280px] h-[350px]'> 
+          <div className='w-[280px] h-[350px] hover:scale-[1.05] transition-transform duration-200 hover:transition-transform hover:duration-200 '> 
             <img src="https://blackhattalent.com/wp-content/uploads/2023/08/Charu-Sharma5.jpg" alt="" className='w-full h-full rounded-xl  border-[1px]'  />
           </div>
           <div className='w-1/2 flex flex-col px-8'>
@@ -35,8 +35,8 @@ const HeroSection = () => {
         </div>
 
         {/* I.M.Vijayan  */}
-        <div className='w-[40%] flex'>
-          <div className='w-[280px] h-[350px]'> 
+        <div className='w-[40%] flex justify-end'>
+          <div className='w-[280px] h-[350px] hover:scale-[1.05] transition-transform duration-200 hover:transition-transform hover:duration-200 shadow-md rounded-xl'> 
               <img src={vip2} alt="" className='w-full h-full rounded-xl  border-[1px]'  />
             </div>
             <div className='w-1/2 flex flex-col px-8'>
