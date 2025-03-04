@@ -3,9 +3,9 @@ import { kick, pros, trophy, win } from '../../assets/asset'
 
 const ProsSection = () => {
   return (
-    <section className='w-full'>
+    <section className='w-full py-12'>
         {/* Pros of Kerala Super League  */}
-        <div className='flex flex-col justify-center items-center gap-8 min-h-dvh py-24 relative'>
+        <div className='flex flex-col justify-center items-center gap-8 py-24 relative'>
            {
             pros.map((pro)=>(
                 <p key={pro.id} className='text-justify leading-6 text-white text-[.9rem] uppercase max-w-[50%] w-full pros-description'>{pro.content}</p>

@@ -2,7 +2,7 @@ import React from 'react'
 import { vip2 } from '../../assets/asset'
 const HeroSection = () => {
   return (
-    <section className='h-dvh w-full flex flex-col  py-16 justify-between items-center'>      
+    <section className='h-vh w-full flex flex-col  py-16 justify-between items-center'>      
       
       {/* Heading Section  */}
       <div className='w-full pt-16'>
@@ -15,7 +15,7 @@ const HeroSection = () => {
       </div>
 
       {/* VIP Description  */}
-      <div className='w-full flex justify-center gap-4'>
+      <div className='w-full flex justify-center gap-4 pt-20'>
 
         {/* Charu Sharma  */}
         <div className='w-[40%] flex'>

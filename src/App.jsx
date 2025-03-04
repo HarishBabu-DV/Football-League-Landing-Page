@@ -5,7 +5,7 @@ import { Routes,Route } from 'react-router'
 import Footer from './components/Footer'
 const App = () => {
   return (
-    <main  className='max-w-[1920px] w-full app-container '>
+    <main  className='max-w-[1920px] w-full app-container mx-auto relative'>
       {/* Header  */}
       <Header />
       <Routes>

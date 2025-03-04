@@ -2,9 +2,9 @@ import React from 'react'
 
 const SubscribeSection = () => {
   return (
-    <section className='w-full min-h-dvh flex flex-col items-center justify-center gap-y-8 subscribe-section-container'>
+    <section className='w-full flex flex-col items-center justify-center gap-y-12 py-36 subscribe-section-container'>
         {/* Quotes Description */}
-        <div className='flex flex-col justify-center gap-y-2 '>
+        <div className='flex flex-col justify-center gap-y-8 '>
             <p className='text-[1rem] text-center quotes-line1'>Stay in the loop. Get the latest updates from SLK.</p>
             <h3 className='font-semibold text-3xl text-center quotes-line2 flex items-center justify-center gap-2'>
                 <span className='quotes-line2-stay'>Stay</span>

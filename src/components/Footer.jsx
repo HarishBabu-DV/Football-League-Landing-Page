@@ -3,7 +3,7 @@ import { footerContents } from "../assets/asset"
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-white max-h-[70dvh] min-h-[60dvh] flex flex-col gap-y-8 py-8">
+    <footer className="w-full bg-white  flex flex-col gap-y-8 py-8">
         {/* Footer Description */}
         <section className=" w-full flex items-center">
             {/* Address,Quick Links,Useful Links  */}

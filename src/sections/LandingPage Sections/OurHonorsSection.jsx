@@ -3,9 +3,9 @@ import { vipDescription } from '../../assets/asset'
 
 const OurHonorsSection = () => {
   return (
-   <section className='max-w-[95%] w-full mt-32 mx-auto min-h-dvh '>
+   <section className='max-w-[95%] w-full mt-32 mx-auto '>
     {/* Our Honors heading container */}
-        <div className='flex items-center justify-center bg-white w-full h-[10vh] our-honors-heading-container'>
+        <div className='flex items-center justify-center bg-white w-full py-6 our-honors-heading-container'>
             <h1 className='capitalize text-3xl underline font-medium'>our honors</h1>
         </div>
     {/* Our Honors description  */}
@@ -21,7 +21,7 @@ const OurHonorsSection = () => {
                 vipDescription.map((vip)=>(
                     <div key={vip.id} style={vip.id===2?{flexDirection:"row-reverse"}:null} className='flex'>
                         <div className='w-1/2 flex' style={vip.id===2 ?{justifyContent:"flex-end"}:null}>
-                            <div className='w-[500px] h-[350px]  hover:scale-[1.05] transition-transform duration-200 hover:transition-transform hover:duration-200'>
+                            <div className='w-[90%] h-[350px]  hover:scale-[1.05] transition-transform duration-200 hover:transition-transform hover:duration-200'>
                                 <img src={vip.imageContent} className='w-full h-full' alt={`${vip.vipName} image`} />
                             </div>
                         </div>

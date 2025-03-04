@@ -73,10 +73,10 @@
         background-image: -webkit-linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('https://images.unsplash.com/photo-1574155088851-0c770818ba40?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
+        background-size:cover;
     }
    .football-team-names{
-    animation: scaleText 5s linear 2s infinite alternate forwards;
+    animation: scaleText 4s ease 2s infinite alternate forwards;
    }
    @keyframes scaleText {
     to{

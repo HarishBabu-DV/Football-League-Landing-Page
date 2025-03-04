@@ -5,7 +5,7 @@ import { Link } from 'react-router'
 const OurMediaSection = () => {
   return (
     <section className='w-full'>
-        <div className='bg-[#202020] rounded-md w-[90%]  mx-auto min-h-[80vh] flex flex-col gap-y-8 px-12 py-8'>
+        <div className='bg-[#202020] rounded-md w-[90%]  mx-auto flex flex-col gap-y-8 px-12 py-8'>
             {/* Our Media heading  */}
             <h2 className=' text-3xl'>
                 <span className='text-white capitalize'>our</span>

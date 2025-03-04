@@ -6,7 +6,7 @@ const ChallengesSection = () => {
     <section className='w-[90%] mx-auto'>
 
         {/* Challenges Heading  */}
-        <div className='bg-white h-[10vh] challenges-heading-container flex justify-center items-center'>   
+        <div className='bg-white challenges-heading-container flex justify-center items-center py-6'>   
             <h2 className='uppercase text-center text-[1.6rem] challenges-heading font-semibold'>challenges</h2>
         </div>
 
@@ -17,7 +17,7 @@ const ChallengesSection = () => {
                 super league kerala scouting phase
             </h2>
             {/* Super League kerala Teams Container */}
-            <div className='w-full h-[90dvh] super-league-kerala-teams-container rounded-lg flex flex-col justify-between items-center py-12'>
+            <div className='w-full  super-league-kerala-teams-container rounded-lg flex flex-col justify-between gap-y-20 items-center py-12'>
                 {/* Super league kerala logo container  */}
                 <div className='w-[180px] h-[120px]'>
                     <img src={logowhite} alt="" className='w-full h-full' />
